@@ -16,7 +16,7 @@ public class ModuloDeConexao {
         //chamando o driver do MySql
         String driver = "com.mysql.jdbc.Driver";
         //Parametros de conexao
-        String url = "jdbc:mysql://localhost:3306/db_controle_escolar";
+        String url = "jdbc:mysql://localhost:3306/db_controle";
         String user = "root";
         String senha = "";
         try {

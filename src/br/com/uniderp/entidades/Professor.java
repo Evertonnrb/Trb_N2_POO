@@ -5,6 +5,7 @@ private Integer id;
 private String nome;
 private String sexo;
 private String disciplina;
+private String senha;
 
     public Integer getId() {
         return id;
@@ -37,5 +38,14 @@ private String disciplina;
     public void setDisciplina(String disciplina) {
         this.disciplina = disciplina;
     }
+
+    public String getSenha() {
+        return senha;
+    }
+
+    public void setSenha(String senha) {
+        this.senha = senha;
+    }
+    
 
 }
